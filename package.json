@@ -5,5 +5,8 @@
   "main": "index.js",
   "author": "kaznak.at.work@ipebble.org",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "dredd": "^14.1.0"
+  }
 }
