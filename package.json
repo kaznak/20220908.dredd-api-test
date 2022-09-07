@@ -1,0 +1,9 @@
+{
+  "name": "dredd-api-test",
+  "version": "0.0.0",
+  "description": "dredd api test sample",
+  "main": "index.js",
+  "author": "kaznak.at.work@ipebble.org",
+  "license": "MIT",
+  "private": true
+}
