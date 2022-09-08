@@ -6,6 +6,11 @@
   "author": "kaznak.at.work@ipebble.org",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "start:server": "json-server --watch db.json",
+    "start:test": "dredd openapi.yaml http://localhost:3000 --hookfiles=hooks.js",
+    "reset:db": "git restore db.json"
+  },
   "dependencies": {
     "dredd": "^14.1.0",
     "json-server": "^0.17.0",
